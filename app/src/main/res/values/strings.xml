@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="tv_minesweeper">Minesweeper</string>
+    <string name="flag_mode">Flag Mode</string>
+    <string name="reset">Reset</string>
+    <string name="easy_5x5">Easy (5x5)</string>
+    <string name="medium_8x8">Medium (8x8)</string>
+    <string name="hard_16x16">Hard (12x12)</string>
+    <string name="impossible_24x24">Impossible (16x16)</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minesweeper"
+        android:textSize="50sp"
+        android:gravity="center"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400sp"
+            app:srcCompat="@drawable/mine_logo"
+            android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnEasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/easy_5x5"/>
+        <Button
+            android:id="@+id/btnMed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/medium_8x8"/>
+        <Button
+            android:id="@+id/btnHard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hard_16x16"/>
+        <Button
+            android:id="@+id/btn_imp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/impossible_24x24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Made by Junnan Shimizu"
+            android:textSize="35sp"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
